@@ -6,7 +6,11 @@ var indx = 0
     const key = parseInt(event.which || event.detail)
     if (key === code[indx]) {
       indx++
-      if (key.length === code.length)
+      if (key.length === code.length) {
+        alert("Hurray!")
+      }
+    } else {
+      
     }
   
     
