@@ -8,6 +8,7 @@ var indx = 0
       indx++
       if (key.length === code.length) {
         alert("Hurray!")
+        indx = 0 
       }
     } else {
       indx = 0 
