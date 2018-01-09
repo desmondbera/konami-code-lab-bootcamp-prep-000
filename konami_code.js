@@ -10,7 +10,7 @@ var indx = 0
         alert("Hurray!")
       }
     } else {
-      
+      indx = 0 
     }
   
     
