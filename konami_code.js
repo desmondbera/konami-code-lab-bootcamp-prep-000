@@ -5,8 +5,8 @@ var indx = 0
   document.body.addEventListener("keydown",function(event){
     const key = parseInt(event.which || event.detail)
     if (key === code[indx]) {
-      
-      
+      indx++
+      if (key.length === code.length)
     }
   
     
