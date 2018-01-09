@@ -10,11 +10,10 @@ function init() {
         alert("Hurray!");
         indx = 0;
       }
-    } else {
+    }else {
       indx = 0 ;
     }
-  
-    
   });
 
 }
+console.log(e.detail);
