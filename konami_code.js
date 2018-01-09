@@ -6,7 +6,7 @@ document.body.addEventListener('keydown', function(evnt) {
   const key = (evnt.which || evnt.detail)
   if(code[indx] === key) {
     indx++
-    if(indx === code.length) {
+    if(key === code.length) {
       alert("Hurray you got it!")
       indx = 0 
     }
